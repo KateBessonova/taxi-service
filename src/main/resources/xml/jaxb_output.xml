@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<trip tripid="5">
+    <customer customerid = "1">
+        <name>James</name>
+        <email>James@gmail.com</email>
+    </customer>
+    <driver driverid = "1">
+        <name>Holmes</name>
+        <email>Holmes@gmail.com</email>
+    </driver>
+    <payment>3000</payment>
+    <status>1</status>
+</trip>
