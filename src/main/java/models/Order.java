@@ -1,6 +1,7 @@
 
 package models;
 
+
 public class Order {
  
     private int orderId;
@@ -35,6 +36,26 @@ public class Order {
 
     public int getPrice() {
         return price;
+    }
+
+    public void setOrderId(int orderId) {
+        this.orderId = orderId;
+    }
+
+    public void setCustomerId(int customerId) {
+        this.customerId = customerId;
+    }
+
+    public void setFrom(String from) {
+        this.from = from;
+    }
+
+    public void setTo(String to) {
+        this.to = to;
+    }
+
+    public void setPrice(int price) {
+        this.price = price;
     }
 
     @Override

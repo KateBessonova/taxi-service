@@ -68,6 +68,7 @@ public class Trips {
         this.driver = driver;
     }
 
+
     @Override
     public String toString() {
         return "Trips{" +

@@ -26,6 +26,18 @@ public class Cities {
         return customerId;
     }
 
+    public void setCityName(String cityName) {
+        this.cityName = cityName;
+    }
+
+    public void setCountry(String country) {
+        this.country = country;
+    }
+
+    public void setCustomerId(int customerId) {
+        this.customerId = customerId;
+    }
+
     @Override
     public String toString() {
         return "Cities{" + "cityName=" + cityName + ", country=" + country + ", customerId=" + customerId + '}';

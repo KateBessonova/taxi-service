@@ -30,6 +30,22 @@ public class CarAmortization {
         return carDepriciation;
     }
 
+    public void setCarId(int carId) {
+        this.carId = carId;
+    }
+
+    public void setMiles_driven(String miles_driven) {
+        this.miles_driven = miles_driven;
+    }
+
+    public void setYear(int year) {
+        this.year = year;
+    }
+
+    public void setCarDepriciation(int carDepriciation) {
+        this.carDepriciation = carDepriciation;
+    }
+
     @Override
     public String toString() {
         return "CarAmortization{" + "carId=" + carId + ", miles_driven=" + miles_driven + ", year=" + year + ", carDepriciation=" + carDepriciation + '}';

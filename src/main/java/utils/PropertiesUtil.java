@@ -10,7 +10,7 @@ import java.util.Properties;
 
 public class DBProperties {
     private static final Logger LOGGER = LogManager.getLogger(DBProperties.class);
-    private static final String PROPERTIES = "src/main/resources//db/db.properties";
+    private static final String PROPERTIES = "src/main/resources//db/propertiesUtil";
 
     public static Properties get() {
         Properties props = new Properties();

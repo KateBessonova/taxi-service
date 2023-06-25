@@ -32,6 +32,22 @@ public class Driver {
         return drivingLicense;
     }
 
+    public void setDriverId(int driverId) {
+        this.driverId = driverId;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public void setDrivingLicense(String drivingLicense) {
+        this.drivingLicense = drivingLicense;
+    }
+
     @Override
     public String toString() {
         return "Driver{" + "driverId=" + driverId + ", name=" + name + ", email=" + email + ", drivingLicense=" + drivingLicense + '}';

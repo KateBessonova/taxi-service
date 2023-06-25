@@ -13,7 +13,6 @@ import models.Order;
 
 
 public class OrderDaoController implements DAO<Order>{
-
     static Connection connection = new DBConnection().getConnection();
     
     @Override

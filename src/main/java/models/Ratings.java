@@ -38,6 +38,26 @@ public class Ratings {
         return feedback;
     }
 
+    public void setCustomerId(int customerId) {
+        this.customerId = customerId;
+    }
+
+    public void setDriverId(int driverId) {
+        this.driverId = driverId;
+    }
+
+    public void setTripId(int tripId) {
+        this.tripId = tripId;
+    }
+
+    public void setRating(int rating) {
+        this.rating = rating;
+    }
+
+    public void setFeedback(String feedback) {
+        this.feedback = feedback;
+    }
+
     @Override
     public String toString() {
         return "Ratings{" + "customerId=" + customerId + ", driverId=" + driverId + ", tripId=" + tripId + ", rating=" + rating + ", feedback=" + feedback + '}';

@@ -32,6 +32,22 @@ public class TripPayment {
         return customerId;
     }
 
+    public void setTripId(int tripId) {
+        this.tripId = tripId;
+    }
+
+    public void setMethod(String method) {
+        this.method = method;
+    }
+
+    public void setAmount(double amount) {
+        this.amount = amount;
+    }
+
+    public void setCustomerId(int customerId) {
+        this.customerId = customerId;
+    }
+
     @Override
     public String toString() {
         return "TripPayment{" + "tripId=" + tripId + ", method=" + method + ", amount=" + amount + ", customerId=" + customerId + '}';

@@ -32,6 +32,22 @@ public class CarPayment {
         return year;
     }
 
+    public void setCarId(int carId) {
+        this.carId = carId;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    public void setMonthlyPayment(double monthlyPayment) {
+        this.monthlyPayment = monthlyPayment;
+    }
+
+    public void setYear(int year) {
+        this.year = year;
+    }
+
     @Override
     public String toString() {
         return "CarPayment{" + "carId=" + carId + ", price=" + price + ", monthlyPayment=" + monthlyPayment + ", year=" + year + '}';

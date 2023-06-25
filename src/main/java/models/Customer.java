@@ -1,6 +1,7 @@
 
 package models;
 
+
 public class Customer {
  
     private int customerId;
@@ -24,6 +25,18 @@ public class Customer {
 
     public String getEmail() {
         return email;
+    }
+
+    public void setCustomerId(int customerId) {
+        this.customerId = customerId;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     @Override

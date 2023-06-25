@@ -13,6 +13,7 @@ import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.List;
 
+
 public class TripsDaoController implements DAO<Trips>{
 
     static Connection connection = new DBConnection().getConnection();

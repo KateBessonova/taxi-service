@@ -38,6 +38,26 @@ public class Car {
         return year;
     }
 
+    public void setCarId(int carId) {
+        this.carId = carId;
+    }
+
+    public void setDriverId(int driverId) {
+        this.driverId = driverId;
+    }
+
+    public void setCustomerId(int customerId) {
+        this.customerId = customerId;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public void setYear(String year) {
+        this.year = year;
+    }
+
     @Override
     public String toString() {
         return "Car{" + "carId=" + carId + ", driverId=" + driverId + ", customerId=" + customerId + ", model=" + model + ", year=" + year + '}';

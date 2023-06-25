@@ -1,6 +1,7 @@
 
 package models;
 
+
 public class Drivinglicense {
  
     private String drivingLicense;
@@ -17,6 +18,14 @@ public class Drivinglicense {
 
     public String getCategory() {
         return category;
+    }
+
+    public void setDrivingLicense(String drivingLicense) {
+        this.drivingLicense = drivingLicense;
+    }
+
+    public void setCategory(String category) {
+        this.category = category;
     }
 
     @Override
