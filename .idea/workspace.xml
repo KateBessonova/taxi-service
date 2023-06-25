@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9f932823-247b-4e64-9db6-5fe4a09b96ce" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/connection/DBConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/connection/DBProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/OrderDaoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/OrderDaoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/TripsDaoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/TripsDaoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/DAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/DAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/CarAmortization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/CarAmortization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/CarPayment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/CarPayment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Cities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Cities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Drivinglicense.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Drivinglicense.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Ratings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Ratings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/TripPayment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/TripPayment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/TripZones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/TripZones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Trips.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Trips.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/IParserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/IService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/ITripsParserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/ITripsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/TripsHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/TripsParserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/TripsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/maven/archetype.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/test/java/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/archetype.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/archetype-resources/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/archetype-resources/src/main/java/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/archetype-resources/src/test/java/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/connection/DBConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/connection/DBProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/CarAmortizationDaoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/CarDaoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/CityDaoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/CustomerDaoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/DriverDaoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/OrderDaoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/RatingsDaoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/TripPaymentDaoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/TripsDaoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/DAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/db.create.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/db.schema.mwb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/db.select.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/models/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/models/CarAmortization.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/models/CarPayment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/models/Cities.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/models/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/models/Driver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/models/Drivinglicense.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/models/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/models/Ratings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/models/TripPayment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/models/TripZones.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/models/Trips.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/parser/Parser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/services/IParserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/services/IService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/services/ITripsParserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/services/ITripsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/services/TripsHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/services/TripsParserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/services/TripsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/validator/XMLValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/xml/jaxb_input.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/xml/jaxb_output.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/xml/trips.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/xml/trips.xsd" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2RiR1FFNcUyl2lY6TAthhWPC7jz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9f932823-247b-4e64-9db6-5fe4a09b96ce" name="Changes" comment="" />
+      <created>1687730709014</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1687730709014</updated>
+    </task>
+    <servers />
+  </component>
+</project>

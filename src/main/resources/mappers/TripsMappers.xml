@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="mappers.TripsMappers">
+    <select id= "selectTripByIdFull" resultMap= "TripsMappers.tripResultMap">
+        Select c.customer_id, c.name, c.email , D.driver_id, D.name, D.email, D.driving_license,
+        T.trip_id, T.payment, T.status FROM CUSTOMER C Inner Join Trip T ON T.customer_id = C.customer_id
+        Inner Join Driver D ON D.driver_id = T.driver_id
+        WHERE T.trip_id = #{id}
+    </select>
+    <select id= "selectTripById" resultMap= "mappers.TripsMappers.tripResultMap">
+        SELECT t.trip_id, t.customer_id, t.driver_id, t.payment, t.status
+        FROM Trip t
+        WHERE t.trip_id = #{id}
+    </select>
+    <select id= "selectAll" resultMap= "mappers.TripsMappers.tripResultMap">
+        SELECT t.trip_id, t.customer_id, t.driver_id, t.payment, t.status
+        FROM Trip t
+    </select>
+    <select id= "selectAllFull" resultMap= "mappers.TripsMappers.tripResultMap">
+        Select c.customer_id, c.name, c.email , D.driver_id, D.name, D.email, D.driving_license,
+        T.trip_id, T.payment, T.status FROM CUSTOMER C Inner Join Trip T ON T.customer_id = C.customer_id
+        Inner Join Driver D ON D.driver_id = T.driver_id
+    </select>
+    <insert id="createTrip">
+        INSERT into Trip (trip_id, customer_id, driver_id, payment, status) VALUES (#{id}, #{customer_id}, #{driver_id}, #{payment}, #{status})
+    </insert>
+    <update id="updateTrip">
+        UPDATE Trip SET payment = #{payment}, status= #{status}
+        WHERE id = #{id}
+    </update>
+    <delete id="deleteTrip">
+        DELETE FROM Trip WHERE id = #{id}
+    </delete>
+    <resultMap id="tripResultMap" type="models.Trips" autoMapping="false">
+        <id property="trip_id" column="trip_id"/>
+        <result property="payment" column="payment"/>
+        <result property="status" column ="status"/>
+        <association property ="customer" resultMap="mappers.CustomerMapper.customerResultMap"/>
+        <association property="driver" resultMap="mappers.DriverMapper.driverResultMap"/>
+    </resultMap>
+</mapper>
